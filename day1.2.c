@@ -14,7 +14,7 @@ int main(void)
    char name[50], str[FLEN][50] = {0};
    int nums[FLEN] = {0}, a, b, c;
    int i = 0, j, k;
-   fp = fopen("input1.1.txt", "r");
+   fp = fopen("input/input1.1.txt", "r");
 
    if(fp == NULL){
       printf("Error opening file\n");

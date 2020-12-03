@@ -11,7 +11,7 @@ void test(void);
 
 int main(void)
 {
-   FILE *myfile = fopen("input2.txt", "r");
+   FILE *myfile = fopen("input/input2.txt", "r");
    char text[FLEN][STRLEN], text2[FLEN][STRLEN], text3[FLEN][STRLEN], text4[FLEN][STRLEN];
    int inty[FLEN][2], inty2[FLEN] = {0}, inty3[FLEN] = {0};
    int row = 0, i, j = 0, k = 0, l = 0, cnt = 0;

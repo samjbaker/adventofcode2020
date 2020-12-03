@@ -13,7 +13,7 @@ void test(void);
 
 int main(void)
 {
-   FILE *myfile = fopen("input3.txt", "r");
+   FILE *myfile = fopen("input/input3.txt", "r");
    char text[FLEN][STRLEN], name[STRLEN];
    int row = 0, cnt;
    if(myfile == NULL){
